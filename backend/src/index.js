@@ -18,7 +18,7 @@ app.use(cors({
 const PORT = process.env.PORT; //taking port from env
 
 app.use("/api/auth", authRoutes) //defining api
-app.use("/api/message", messageRoutes);
+app.use("/api/messages", messageRoutes);
 app.listen(PORT, () => {
     console.log(`Server connected on port ${PORT}`);
     connectDB();
