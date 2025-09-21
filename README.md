@@ -36,3 +36,5 @@ MongoDB (Mongoose ODM)
 Socket.io
 
 bcrypt.js
+
+Deployment Link - https://chat-app-u52u.onrender.com/login
